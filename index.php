@@ -106,7 +106,7 @@
 
                 <!--To get all images from directory-->
                 <?php
-                $directory = "img/portfolio/Pouch/";
+                $directory = "img/portfolio/pouch/";
                 $images = glob("$directory*.{png,jpeg,jpg}", GLOB_BRACE);
                 $image_height = 50;
                 $image_width = 200;
@@ -130,7 +130,7 @@
                 }
                 ?>
                 <?php
-                $directory = "img/portfolio/ZipperPouch/";
+                $directory = "img/portfolio/zipper/";
 
                 $images = glob("$directory*.{png,jpeg,jpg}", GLOB_BRACE);
                 $image_height = 50;
@@ -155,7 +155,7 @@
                 ?>
 
                 <?php
-                $directory = "img/portfolio/incense/";
+                $directory = "img/portfolio/eco/";
 
                 $images = glob("$directory*.{png,jpeg,jpg}", GLOB_BRACE);
                 $image_height = 50;
@@ -197,7 +197,7 @@
                         India like in the cities of Maharashtra and Gujarat.</p>
                 </div>
                 <div class="row">
-                    <div class="col-md-6"><img src="about.jpg" class="img-responsive"></div>
+                    <div class="col-md-6"><img src="img/background/about.jpg" class="img-responsive"></div>
                     <div class="col-md-6">
                         <div class="about-text">
                             <h4>OUR REACH</h4>

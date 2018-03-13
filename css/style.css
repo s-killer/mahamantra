@@ -117,7 +117,7 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../header-bg.jpg) no-repeat bottom right;
+	background: url(../img/background/header-bg.jpg) no-repeat bottom right;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
