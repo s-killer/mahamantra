@@ -73,7 +73,7 @@
 <!-- Header -->
 <header class="text-center" id="home">
     <div class="intro-text">
-        <h1>Welcome to <strong>Maha Mantra</strong></h1>
+        <h1>Welcom to <strong>Maha Mantra</strong></h1>
         <p>Fragrance Redefined</p>
     </div>
 </header>
@@ -106,7 +106,7 @@
 
                 <!--To get all images from directory-->
                 <?php
-                $directory = "img/portfolio/Pouch/";
+                $directory = "img/portfolio/pouch/";
                 $images = glob("$directory*.{png,jpeg,jpg}", GLOB_BRACE);
                 $image_height = 50;
                 $image_width = 200;
@@ -130,7 +130,7 @@
                 }
                 ?>
                 <?php
-                $directory = "img/portfolio/ZipperPouch/";
+                $directory = "img/portfolio/zipper/";
 
                 $images = glob("$directory*.{png,jpeg,jpg}", GLOB_BRACE);
                 $image_height = 50;
