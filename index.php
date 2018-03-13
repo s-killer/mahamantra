@@ -11,7 +11,7 @@
 
     <!--    <!-- Favicons-->
     <!--        ================================================== -->
-    <link rel="shortcut icon" href="logo/700x700.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo/700x700.png" type="image/x-icon">
     <!--    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">-->
     <!--    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">-->
     <!--    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">-->
@@ -49,7 +49,7 @@
                     data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
                         class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
             <a class="navbar-brand" href="index.php" style="padding: 0 !important;">
-                <img src="logo/700x700.png" width="100px" style="margin-left: 0 !important; float: left">
+                <img src="img/logo/700x700.png" width="100px" style="margin-left: 0 !important; float: left">
 
             </a>
         </div>
@@ -106,7 +106,7 @@
 
                 <!--To get all images from directory-->
                 <?php
-                $directory = "img/portfolio/pouch/";
+                $directory = "img/portfolio/Pouch/";
                 $images = glob("$directory*.{png,jpeg,jpg}", GLOB_BRACE);
                 $image_height = 50;
                 $image_width = 200;
@@ -130,7 +130,7 @@
                 }
                 ?>
                 <?php
-                $directory = "img/portfolio/zipper/";
+                $directory = "img/portfolio/ZipperPouch/";
 
                 $images = glob("$directory*.{png,jpeg,jpg}", GLOB_BRACE);
                 $image_height = 50;
